@@ -1,0 +1,282 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+nav {
+  background-color: black;
+  color: azure;
+  display: flex;
+  padding: 25px 0px 0px 25px;
+  height: 67px;
+  font-size: 20px;
+  align-items: center;
+  width: auto;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-left: 10px 18px;
+}
+nav ul li {
+  padding: 20px;
+}
+nav p {
+  padding: 20px 0px 0px 50px;
+  font-size: 20px;
+}
+.phone {
+  background-color: black;
+  color: white;
+  display: flex;
+  width: auto;
+}
+.phone-description {
+  display: flex;
+  margin-top: 95px;
+  margin-left: 340px;
+  font-size: 26px;
+}
+.phone-photo {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 90px;
+}
+.phone-details {
+  height: 78px;
+  width: 510px;
+  margin-top: 225px;
+  margin-left: 98px;
+}
+.phone-details h3 {
+  font-size: 35px;
+}
+.phone-text p {
+  margin-top: 30px;
+}
+.button {
+  padding: 12px 20px 12px 18px;
+  border-radius: 3px;
+  display: inline;
+  background-color: white;
+  color: grey;
+}
+button {
+  margin-top: 30px;
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+.fresh {
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 140px;
+  width: auto;
+}
+.fresh p {
+  display: inline-block;
+  font-size: 20px;
+}
+.fresh-air {
+  display: flex;
+  margin-left: 950px;
+  word-spacing: 5%;
+}
+.features {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+}
+.features-box {
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.features-box img {
+  display: flex;
+  justify-content: center;
+}
+.descriptipn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buds {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 850px;
+}
+.buds-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  text-align: center;
+}
+
+.buds-description {
+  margin-top: 80px;
+  margin-left: 250px;
+  margin-bottom: 80px;
+  width: auto;
+  text-align: centre;
+}
+.buds-description p {
+  font-size: 15px;
+  word-spacing: 5px;
+  width: 300px;
+}
+.buds-features-button {
+  font-size: 20px;
+  margin-top: 10px;
+  width: 140px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 4%;
+}
+
+.buds-features img {
+  width: 368px;
+  height: 370px;
+}
+.buds-image2 {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.dark-tones {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 800px;
+  background-color: white;
+  color: black;
+}
+.dark-tone-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  text-align: center;
+}
+.dark-tone-description {
+  margin: 80px 80px 80px 0px;
+  width: auto;
+  text-align: centre;
+}
+.dark-tone-description p {
+  font-size: 15px;
+  word-spacing: 5px;
+  width: 300px;
+}
+.dark-tone-feature button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  height: 60px;
+  width: 130px;
+  border-radius: 4%;
+}
+
+.dark-tone-feature img {
+  height: 345px;
+  width: 360px;
+}
+.dark-tone-image21 {
+  margin: 55px 55px 55px 30px;
+}
+.about-us {
+  width: auto;
+
+  background-color: #eaedea;
+  display: flex;
+}
+.about-us-description {
+  margin-top: 200px;
+  margin-left: 20px;
+}
+.about-us-description p {
+  font-size: 20px;
+}
+footer {
+  background-color: white;
+  display: flex;
+  width: 1500px;
+  height: 350px;
+}
+footer div ul li h3 {
+  margin-bottom: 32px;
+}
+.footer {
+  display: flex;
+  width: 61%;
+  margin-top: 70px;
+}
+.footer ul {
+  width: 30%;
+  margin-left: 61px;
+}
+.footer ul li {
+  padding: 6px 8px;
+}
+.footer-button a {
+  text-decoration: none;
+  color: white;
+}
+.footer-content {
+  display: flex;
+  margin-top: 75px;
+  justify-content: center;
+}
+.footer-detail-email {
+  font-size: 25px;
+}
+.footer-email label p {
+  padding-left: 13px;
+}
+.footer-detail-email h3 {
+  font-size: 28px;
+}
+
+.footer-input {
+  display: flex;
+  margin-top: 32px;
+}
+.footer-email {
+  color: #878787;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+  display: flex;
+  width: 265px;
+  height: 46px;
+  align-items: center;
+}
+.footer-send-button {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 100px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  
+}
+.narrow-bar {
+  color: white;
+  background-color: black;
+}
+.narrow-bar p {
+  word-spacing: 5px;
+  letter-spacing: 3px;
+}
